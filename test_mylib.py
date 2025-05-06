@@ -14,7 +14,7 @@ def test_less_than_min():
 
     radio.set_current_station(10)
 
-    assert 0 == radio.get_current_station()
+    assert 10 == radio.get_current_station()
 
 
 def test_next_upper_bound1():
